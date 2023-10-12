@@ -21,3 +21,4 @@ function checkGuess() {
       message.textContent = 'Too high. Try again.';
     }
   }
+
