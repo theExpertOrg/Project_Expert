@@ -34,7 +34,9 @@ h1 {
 }
 .image-list {
   padding-inline: 0;
-  width: clamp(300px, 100%, 1500px);
+  /* width: clamp(300px, 100%, 1500px); */
+  max-width: 1500px;
+  width: min(100vw, 1500px)
 }
 
 .tag-list li {
